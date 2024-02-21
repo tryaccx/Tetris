@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -Wextra -Werror -Iheader
+CXXFLAGS = -std=c++17 -Wall -Wextra -Werror -Iheader
 LDFLAGS = -Llib/ -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL
 LIBS = lib/libraylib.a
 SOURCE_FILES = *.cpp header/*.cpp  # Adjust the paths based on your project structure
